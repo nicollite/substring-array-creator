@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": ["es2017", "es2017.object", "es6", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "types": ["jest", "node"],
+    "typeRoots": ["./node_modules/@types"],
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "./types"
+  },
+  "compileOnSave": true,
+  "include": ["src"],
+  "exclude": ["node_modules", "src/tests/**/*", "src/test.ts"]
+}
