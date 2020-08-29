@@ -11,8 +11,6 @@ export interface SubstringArrayOptions {
  * @param string The string to create create the substring array
  * @param options Options that alter the beahavior of the returned array
  */
-export function substringArrayCreator(string: string): string[];
-export function substringArrayCreator(string: string, options: SubstringArrayOptions): string[];
 export function substringArrayCreator(
   string: string,
   options: SubstringArrayOptions = {}
