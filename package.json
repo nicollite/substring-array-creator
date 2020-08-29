@@ -1,6 +1,6 @@
 {
   "name": "substring-array-creator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates a array with all possible substrings of a string",
   "main": "dist/index.js",
   "author": {
